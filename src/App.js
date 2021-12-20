@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Navigation } from './components';
+import { Converter, Currency } from './containers';
 
 const App = () => (
   <div className="App">
-    Currency Converter
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<Currency />} />
+      <Route path="/convert" element={<Converter />} />
+    </Routes>
   </div>
 );
 
