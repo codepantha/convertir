@@ -13,7 +13,7 @@ const Currency = () => {
   );
 
   useEffect(() => {
-    dispatch(getCurrencies('usd'));
+    dispatch(getCurrencies(baseCurrency || 'usd'));
   }, [dispatch]);
 
   return (

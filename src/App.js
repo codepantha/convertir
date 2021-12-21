@@ -9,7 +9,7 @@ const App = () => (
     <Navigation />
     <Routes>
       <Route path="/" element={<Currency />} />
-      <Route path="/convert" element={<Converter />} />
+      <Route path="/:from/:to" element={<Converter />} />
     </Routes>
   </div>
 );
