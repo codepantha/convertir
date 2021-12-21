@@ -3,13 +3,3 @@
   grid-template-columns: 50% 50%;
   justify-content: center;
 }
-
-.convertir__currency-card {
-  height: 200px;
-  background: #db4681;
-  border: 1px solid #777;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
