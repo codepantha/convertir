@@ -1,3 +1,38 @@
-.Navigation-temp {
-  background: white;
+.convertir__nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7px;
+  background-color: #ec4c8a;
+  color: #fdf1f5;
+}
+
+.convertir__nav-base-currency {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.convertir__nav-base-currency select {
+  flex: 2;
+  padding: 6px;
+  margin-right: 4px;
+  background-color: #712544;
+  color: #fdf1f5;
+  border: 1px solid #ec4c8a;
+  border-radius: 4px;
+  outline: none;
+}
+
+.convertir__nav-back_button {
+  flex: 1;
+}
+
+.convertir__nav-icons {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

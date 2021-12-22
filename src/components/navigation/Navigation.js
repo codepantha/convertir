@@ -33,10 +33,12 @@ const Navigation = () => {
             </option>
           ))}
         </select>
-        <span>Base Currency</span>
+        <span>Default</span>
       </div>
-      <FaMicrophone />
-      <IoIosSettings />
+      <div className="convertir__nav-icons">
+        <FaMicrophone />
+        <IoIosSettings />
+      </div>
     </nav>
   );
 };
