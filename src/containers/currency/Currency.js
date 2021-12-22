@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import { Card } from '../../components';
+import { Card, Filter } from '../../components';
 import { getCurrencies } from '../../redux/currency/currency';
 import './Currency.css';
 
@@ -19,6 +19,7 @@ const Currency = () => {
   return (
     <div className="convertir__currency">
       <h2>World Currencies</h2>
+      <Filter />
       <div className="convertir__currency-grid_container">
         {loading
           ? 'Loading...'

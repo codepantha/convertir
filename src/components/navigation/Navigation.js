@@ -10,10 +10,9 @@ const Navigation = () => {
   const [baseCurrency, setBaseCurrency] = useState('usd');
   const dispatch = useDispatch();
 
-  const currencies = useSelector(
-    (state) => state.currenciesReducer.worldCurrencies,
+  const { currencyKeys } = useSelector(
+    (state) => state.currenciesReducer,
   );
-  const currencyKeys = currencies.map((currencyKey) => currencyKey.currency);
 
   const onChangeHandler = (e) => {
     setBaseCurrency(e.target.value);
@@ -23,8 +22,7 @@ const Navigation = () => {
   return (
     <nav className="convertir__nav">
       <div className="convertir__nav-back_button">
-        <IoIosArrowBack />
-        <span>Back</span>
+        <IoIosArrowBack size={20} />
       </div>
 
       <div className="convertir__nav-base-currency">
