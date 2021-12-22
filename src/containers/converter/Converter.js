@@ -33,7 +33,7 @@ const Converter = () => {
       </div>
       <div className="convertir__converter-to flex">
         <p>{to}</p>
-        <p>{rate[to] * inputValue}</p>
+        <p>{String(rate[to] * inputValue)}</p>
         <CgArrowRightO />
       </div>
     </div>
