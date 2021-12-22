@@ -1,10 +1,14 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import './Header.css';
 
-const Header = () => (
-  <div className="convertir__header">
-    <h1>USD</h1>
-  </div>
-);
+const Header = () => {
+  const { baseCurrency } = useSelector((state) => state.currenciesReducer);
+  return (
+    <div className="convertir__header">
+      <h1>{baseCurrency}</h1>
+    </div>
+  );
+};
 
 export default Header;
