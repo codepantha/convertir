@@ -1,3 +1,13 @@
-.temp_converter {
-  background-color: red;
+.convertir__converter-from {
+  padding: 20px 4px;
+  background: #eb4c8a;
+}
+
+.convertir__converter-to {
+  padding: 20px 4px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
