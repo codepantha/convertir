@@ -1,4 +1,5 @@
 import React from 'react';
+import 'tachyons';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Header, Navigation } from './components';

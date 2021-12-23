@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #e94a87;
+}
+
 .App {
   background-color: #e94a87;
 }

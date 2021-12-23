@@ -25,8 +25,8 @@ const Navigation = () => {
         <IoIosArrowBack size={20} />
       </div>
 
-      <div className="convertir__nav-base-currency">
-        <select value={baseCurrency} onChange={onChangeHandler}>
+      <div className="convertir__nav-base-currency grow">
+        <select className="shadow-3" value={baseCurrency} onChange={onChangeHandler}>
           {currencyKeys.map((currency) => (
             <option key={uuidv4()} value={currency}>
               {currency}

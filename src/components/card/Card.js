@@ -4,9 +4,9 @@ import { CgArrowRightO } from 'react-icons/cg';
 import './Card.css';
 
 const Card = ({ currency }) => (
-  <div className="convertir__currency-card">
+  <div className="convertir__currency-card shadow-5">
     <CgArrowRightO />
-    <div className="convertir__currency-card_info">
+    <div className="convertir__currency-card_info grow">
       <h2>{currency.currency}</h2>
       <p>{currency.rate}</p>
     </div>
