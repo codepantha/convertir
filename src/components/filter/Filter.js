@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { BiFilterAlt } from 'react-icons/bi';
 import { filterByCurrency, getCurrencies } from '../../redux/currency/currency';
 import './Filter.css';
 
@@ -18,7 +19,8 @@ const Filter = () => {
 
   return (
     <div className="convertir__filter">
-      <input type="text" name="search" value={input} placeholder="filter by currency name" onChange={onFilterCurrencies} />
+      <input type="text" name="search" value={input} placeholder="filter by currency" onChange={onFilterCurrencies} />
+      <BiFilterAlt />
     </div>
   );
 };
