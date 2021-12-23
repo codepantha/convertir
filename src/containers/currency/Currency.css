@@ -8,16 +8,6 @@
   justify-content: center;
 }
 
-.convertir__currency-title {
-  font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 24px;
-  text-transform: uppercase;
-  padding: 4px 10px;
-  background-color: #cf4178;
-  color: #fdf1f5;
-}
-
 .link {
   text-decoration: none;
   color: #fff;

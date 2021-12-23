@@ -11,4 +11,15 @@ body {
 
 .App {
   background-color: #e94a87;
+  font-family: var(--font-family);
+}
+
+.section__title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  background-color: #cf4178;
+  color: #fdf1f5;
 }

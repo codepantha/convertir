@@ -18,7 +18,7 @@ const Currency = () => {
 
   return (
     <div className="convertir__currency">
-      <h2 className="convertir__currency-title">World Currencies</h2>
+      <h2 className="section__title">World Currencies</h2>
       <Filter />
       <div className="convertir__currency-grid_container">
         {loading
