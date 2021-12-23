@@ -40,15 +40,16 @@ const Converter = () => {
       </div>
       <div className="convertir__converter-to flex shadow-5 items-center">
         <p className="f4">{to}</p>
-        <p className="f3">
-          {loading ? (
-            <Loader height="1.8rem" width="1.8rem" />
-          ) : (
-            String(
+        {loading ? (
+          <Loader height="1.8rem" width="1.8rem" />
+        ) : (
+          <p className="f3">
+            {String(
               Math.round((rate[to] * inputValue + Number.EPSILON) * 100) / 100,
-            )
-          )}
-        </p>
+            )}
+          </p>
+        )}
+
         <CgArrowRightO />
       </div>
     </div>

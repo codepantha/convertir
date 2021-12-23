@@ -17,6 +17,7 @@
 .rotate-vert-center {
   -webkit-animation: rotate-vert-center 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   animation: rotate-vert-center 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes rotate-vert-center {
