@@ -20,7 +20,7 @@ const Filter = () => {
   return (
     <div className="convertir__filter">
       <input type="text" name="search" value={input} placeholder="filter by currency" onChange={onFilterCurrencies} />
-      <BiFilterAlt />
+      <BiFilterAlt color="#727472" />
     </div>
   );
 };

@@ -24,7 +24,7 @@ const Navigation = () => {
     <nav className="convertir__nav">
       <div className="convertir__nav-back_button">
         <Link to="/" className="convertir__nav-back_button-link dim">
-          <IoIosArrowBack size={20} />
+          <IoIosArrowBack size={24} />
         </Link>
       </div>
 
