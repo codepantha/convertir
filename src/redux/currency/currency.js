@@ -37,7 +37,7 @@ export const filterByCurrency = (name) => (dispatch, getState) => {
   const currenciesState = getState().currenciesReducer;
   const payload = {
     currencies: currenciesState,
-    filterName: name,
+    filterName: name.toLowerCase(),
   };
   dispatch({ type: FILTER_BY_CURRENCY_NAME, payload });
 };
