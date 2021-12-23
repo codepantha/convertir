@@ -30,6 +30,12 @@
   flex: 1;
 }
 
+.convertir__nav-back_button-link {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
 .convertir__nav-icons {
   flex: 1;
   display: flex;

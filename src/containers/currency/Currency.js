@@ -24,7 +24,7 @@ const Currency = () => {
         {loading
           ? 'Loading...'
           : worldCurrencies.map((currency, i) => (
-            <Link className="link" key={uuidv4()} to={`${baseCurrency}/${currency.currency}`}>
+            <Link className="link dim" key={uuidv4()} to={`${baseCurrency}/${currency.currency}`}>
               <Card currency={currency} index={i} />
             </Link>
           ))}

@@ -4,6 +4,7 @@ import { IoIosArrowBack, IoIosSettings } from 'react-icons/io';
 import { FaMicrophone } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
+import { Link } from 'react-router-dom';
 import { getCurrencies } from '../../redux/currency/currency';
 
 const Navigation = () => {
@@ -22,11 +23,13 @@ const Navigation = () => {
   return (
     <nav className="convertir__nav">
       <div className="convertir__nav-back_button">
-        <IoIosArrowBack size={20} />
+        <Link to="/" className="convertir__nav-back_button-link dim">
+          <IoIosArrowBack size={20} />
+        </Link>
       </div>
 
       <div className="convertir__nav-base-currency grow">
-        <select className="shadow-3" value={baseCurrency} onChange={onChangeHandler}>
+        <select className="pointer shadow-3" value={baseCurrency} onChange={onChangeHandler}>
           {currencyKeys.map((currency) => (
             <option key={uuidv4()} value={currency}>
               {currency}
@@ -35,8 +38,8 @@ const Navigation = () => {
         </select>
       </div>
       <div className="convertir__nav-icons">
-        <FaMicrophone />
-        <IoIosSettings />
+        <FaMicrophone className="dim pointer" />
+        <IoIosSettings className="dim pointer" />
       </div>
     </nav>
   );
