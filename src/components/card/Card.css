@@ -1,9 +1,15 @@
 .convertir__currency-card {
-  height: 200px;
-  background: #db4681;
-  border: 1px solid #777;
+  height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 10px 20px;
+}
+
+.convertir__currency-card_info {
+  text-align: right;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

@@ -1,11 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { CgArrowRightO } from 'react-icons/cg';
 import './Card.css';
 
 const Card = ({ currency }) => (
   <div className="convertir__currency-card">
-    <h2>{currency.currency}</h2>
-    <p>{currency.rate}</p>
+    <CgArrowRightO />
+    <div className="convertir__currency-card_info">
+      <h2>{currency.currency}</h2>
+      <p>{currency.rate}</p>
+    </div>
   </div>
 );
 

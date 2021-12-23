@@ -33,7 +33,6 @@ const Navigation = () => {
             </option>
           ))}
         </select>
-        <span>Default</span>
       </div>
       <div className="convertir__nav-icons">
         <FaMicrophone />

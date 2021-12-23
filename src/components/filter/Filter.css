@@ -1,3 +1,14 @@
 .convertir__filter {
-  background-color: #777;
+  padding: 0 10px;
+  background-color: #cf4178;
+  color: #fff;
+  text-align: right;
+}
+
+.convertir__filter input {
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
 }
