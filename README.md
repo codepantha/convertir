@@ -112,7 +112,6 @@ Contributions are what make the open source community such an amazing place to b
 License Free.
 
 ## ⭐️ Acknowledgments
-Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)  <br />
+
 The amazing [currency api](https://github.com/fawazahmed0/currency-api) behind this project.
-
-
