@@ -1,0 +1,22 @@
+.convertir__converter {
+  color: #fff;
+}
+
+.convertir__converter svg {
+  font-size: 22px;
+}
+
+.convertir__converter-from {
+  padding: 20px 10px;
+  background: #eb4c8a;
+}
+
+.convertir__converter-to {
+  padding: 20px 10px;
+  background: linear-gradient(to right bottom, rgba(127, 37, 73, 0.8), rgba(234, 76, 135, 0.8));
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

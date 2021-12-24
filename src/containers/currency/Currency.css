@@ -1,0 +1,22 @@
+.convertir__currency {
+  min-height: 100vh;
+}
+
+.convertir__currency-grid_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:nth-child(4n-2) {
+  background-color: #cf4378;
+}
+
+.link:nth-child(4n-1) {
+  background-color: #cf4378;
+}

@@ -1,0 +1,21 @@
+.convertir__filter {
+  padding: 0 10px;
+  background-color: #cf4178;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.convertir__filter input {
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
+}
+
+.convertir__filter svg {
+  color: black;
+  margin-left: -20px;
+}

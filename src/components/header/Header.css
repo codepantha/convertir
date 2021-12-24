@@ -1,0 +1,15 @@
+.convertir__header {
+  height: 200px;
+  background: linear-gradient(to right bottom, rgba(44, 14, 26, 0.8), rgba(234, 76, 135, 0.8)), url('../../assets/bg.jpg');
+  background-size: cover;
+  background-position: top;
+  padding: 20px;
+  color: #fff;
+}
+
+.convertir__header h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-align: right;
+  text-transform: uppercase;
+}
