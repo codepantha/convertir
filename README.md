@@ -4,7 +4,8 @@
   <h3 align="center">Convertir</h3>
 
 
-  ![Convertir](convertir.gif)
+  ![Currency Page](currency.PNG)
+  ![Convertir Page](converter.PNG)
 
   <p align="center">
     "Convertir" is a Single Page Application that allows you to convert from any currency into over 160 world currencies using current exchange rates.
@@ -12,7 +13,7 @@
     <a href="#"><strong>Explore the docs 👇🏽</strong></a>
     <br />
     <br />
-    <a href="#"> <strong>Video Demo Coming Soon...</strong> </a>
+    <a href="https://www.loom.com/share/e1c531a9c98c48ddacda0ede9fa53416?sharedAppSource=personal_library"> <strong>Video Demo</strong> </a>
     ·
     <a href="#"><strong>Live Demo Coming Soon...</strong></a>
     ·
@@ -110,6 +111,8 @@ Contributions are what make the open source community such an amazing place to b
 
 License Free.
 
-## Acknowledgements
+## ⭐️ Acknowledgments
+Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+The amazing [currency api](https://github.com/fawazahmed0/currency-api) behind this project.
 
 
