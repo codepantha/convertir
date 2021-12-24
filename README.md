@@ -15,7 +15,7 @@
     <br />
     <a href="https://www.loom.com/share/e1c531a9c98c48ddacda0ede9fa53416?sharedAppSource=personal_library"> <strong>Video Demo</strong> </a>
     ·
-    <a href="#"><strong>Live Demo Coming Soon...</strong></a>
+    <a href="https://convertirr.netlify.app/"><strong>Live Demo</strong></a>
     ·
     <a href="https://github.com/codepantherr/convertir/issues">Report Bug</a>
     ·
