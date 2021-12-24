@@ -4,7 +4,7 @@ import { CgArrowRightO } from 'react-icons/cg';
 import './Card.css';
 
 const Card = ({ currency }) => (
-  <div className="convertir__currency-card shadow-5 rotate-vert-center">
+  <div data-testid="card" className="convertir__currency-card shadow-5 rotate-vert-center">
     <CgArrowRightO />
     <div className="convertir__currency-card_info grow">
       <h2>{currency.currency}</h2>

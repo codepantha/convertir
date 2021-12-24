@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correctly 1`] = `
+<div
+  className="loader"
+  style={
+    Object {
+      "height": "",
+      "marginBotton": "",
+      "marginTop": "",
+      "width": "",
+    }
+  }
+/>
+`;

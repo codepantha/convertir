@@ -21,7 +21,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="convertir__nav">
+    <nav data-testid="nav" className="convertir__nav">
       <div className="convertir__nav-back_button">
         <Link to="/" className="convertir__nav-back_button-link dim">
           <IoIosArrowBack size={24} />
@@ -29,9 +29,9 @@ const Navigation = () => {
       </div>
 
       <div className="convertir__nav-base-currency grow">
-        <select className="pointer shadow-3" value={baseCurrency} onChange={onChangeHandler}>
+        <select className="pointer shadow-3 select" data-testid="selectTestId" name="select" value={baseCurrency} onChange={onChangeHandler}>
           {currencyKeys.map((currency) => (
-            <option key={uuidv4()} value={currency}>
+            <option data-testid="option" key={uuidv4()} value={currency}>
               {currency}
             </option>
           ))}

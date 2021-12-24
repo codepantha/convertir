@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   const { baseCurrency } = useSelector((state) => state.currenciesReducer);
   return (
-    <div className="convertir__header">
+    <div data-testid="heading" className="convertir__header">
       <h1>{baseCurrency}</h1>
     </div>
   );
