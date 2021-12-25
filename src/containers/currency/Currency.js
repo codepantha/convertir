@@ -14,7 +14,7 @@ const Currency = () => {
 
   useEffect(() => {
     dispatch(getCurrencies(baseCurrency || 'usd'));
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="convertir__currency">

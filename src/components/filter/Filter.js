@@ -15,7 +15,7 @@ const Filter = () => {
   useEffect(() => {
     if (input === '') dispatch(getCurrencies('usd'));
     dispatch(filterByCurrency(input));
-  }, [input]);
+  }, [input, dispatch]);
 
   return (
     <div className="convertir__filter">
