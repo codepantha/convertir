@@ -18,11 +18,11 @@ const Converter = () => {
 
   useEffect(() => {
     dispatch(getConversionRate(from, to));
-  }, [dispatch, from, to]);
+  }, []);
 
   useEffect(() => {
     dispatch(getConversionRate(baseCurrency, to));
-  }, [dispatch, baseCurrency, to]);
+  }, [dispatch, baseCurrency]);
 
   return (
     <div className="convertir__converter">
