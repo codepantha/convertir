@@ -17,9 +17,9 @@
     ·
     <a href="https://convertirr.netlify.app/"><strong>Live Demo</strong></a>
     ·
-    <a href="https://github.com/codepantherr/convertir/issues">Report Bug</a>
+    <a href="https://github.com/codepantha/convertir/issues">Report Bug</a>
     ·
-    <a href="https://github.com/codepantherr/convertir/issues">Request Feature</a>
+    <a href="https://github.com/codepantha/convertir/issues">Request Feature</a>
   </p>
 </p>
 
@@ -63,8 +63,8 @@
 ## Authors
 👤 **Eze Promisie**
 
-- GitHub: [@Eze Promisie](https://github.com/codepantherr)
-- Twitter: [@Eze Promisie](https://twitter.com/codepantherr)
+- GitHub: [@Eze Promisie](https://github.com/codepantha)
+- Twitter: [@Eze Promisie](https://twitter.com/codepantha)
 - LinkedIn: [Eze Promisie](https://www.linkedin.com/in/promise-eze/)
 
 ## Getting Started
@@ -81,7 +81,7 @@
 
 1. Clone the repo
    ```sh
-   https://github.com/codepantherr/convertir.git
+   https://github.com/codepantha/convertir.git
    ```
 
 2. Install NPM packages
@@ -95,7 +95,7 @@
 
 ## Roadmap
 
-See the [open issues](https://github.com/codepantherr/convertir/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/codepantha/convertir/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
